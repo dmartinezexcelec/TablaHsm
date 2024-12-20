@@ -1,0 +1,45 @@
+﻿@model List<HSM2.Models.HsmData>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<h2>HSM Data Table</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Serial HSM</th>
+            <th>Reg</th>
+            <th>SGC</th>
+            <th>SGN</th>
+            <th>BDT</th>
+            <th>KRN</th>
+            <th>ACT</th>
+            <th>CLM</th>
+            <th>CLU</th>
+            <th>DKG</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.SerialHsm</td>
+                <td>@item.Reg</td>
+                <td>@item.Sgc</td>
+                <td>@item.Sgn</td>
+                <td>@item.Bdt</td>
+                <td>@item.Krn</td>
+                <td>@item.Act.ToString("yyyy-MM-dd")</td>
+                <td>@item.Clm</td>
+                <td>@item.Clu</td>
+                <td>@item.Dkg</td>
+            </tr>
+        }
+    </tbody>
+</table>
