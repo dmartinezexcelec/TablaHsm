@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "91+cw1fIFU8=",
+  "dgSpecHash": "ZLhmHMrheo0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dmart\\OneDrive\\Documentos\\PROYECTOS\\HSM2\\HSM2\\HSM2.csproj",
+  "projectFilePath": "C:\\Users\\dmart\\OneDrive\\Documentos\\PROYECTOS_DANIELA\\HSM2\\HSM2\\HSM2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dmart\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\dmart\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

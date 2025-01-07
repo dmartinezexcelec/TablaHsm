@@ -12,19 +12,40 @@ namespace HSM2.Service
         {
             _context = context;
         }
+
         public List<HsmData> GetHsmData()
         {
-            var hsmDataList = _context.HsmData
+            // Ejecuto la consulta SQL sin aplicar ninguna operación de eliminación de duplicados
+            var hsmdatalist = _context.HsmData
                 .FromSqlRaw(@"
-                SELECT H.SerialHsm, R.Reg, S.Sgc, S.Sgn, R.Bdt, R.Krn, R.Act, R.Clm, R.Clu, R.Dkg
-                FROM Hsm H
-                INNER JOIN HsmReg R ON H.IdHsm = R.idHsm
-                INNER JOIN Sgc S ON S.idSgc = R.idSgc
-                ORDER BY H.SerialHsm")
+              SELECT 
+                ROW_NUMBER() OVER (ORDER BY H.SerialHsm) AS id, 
+                H.SerialHsm, 
+                R.Reg, 
+                S.Sgc, 
+                S.Sgn, 
+                R.Bdt, 
+                R.Krn, 
+                R.Act, 
+                R.Clm, 
+                R.Clu, 
+                R.Dkg
+            FROM 
+                Hsm H
+            INNER JOIN 
+                HsmReg R ON H.IdHsm = R.idHsm 
+            INNER JOIN 
+                Sgc S ON S.idSgc = R.idSgc
+            ORDER BY 
+                H.SerialHsm;")
                 .ToList();
 
-            return hsmDataList;
+            // Devuelvo la lista con todos los registros, incluidos los duplicados
+            return hsmdatalist;
         }
+
+
     }
 }
+
 

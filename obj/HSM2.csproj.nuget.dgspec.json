@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dmart\\OneDrive\\Documentos\\PROYECTOS\\HSM2\\HSM2\\HSM2.csproj": {}
+    "C:\\Users\\dmart\\OneDrive\\Documentos\\PROYECTOS_DANIELA\\HSM2\\HSM2\\HSM2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dmart\\OneDrive\\Documentos\\PROYECTOS\\HSM2\\HSM2\\HSM2.csproj": {
+    "C:\\Users\\dmart\\OneDrive\\Documentos\\PROYECTOS_DANIELA\\HSM2\\HSM2\\HSM2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dmart\\OneDrive\\Documentos\\PROYECTOS\\HSM2\\HSM2\\HSM2.csproj",
+        "projectUniqueName": "C:\\Users\\dmart\\OneDrive\\Documentos\\PROYECTOS_DANIELA\\HSM2\\HSM2\\HSM2.csproj",
         "projectName": "HSM2",
-        "projectPath": "C:\\Users\\dmart\\OneDrive\\Documentos\\PROYECTOS\\HSM2\\HSM2\\HSM2.csproj",
+        "projectPath": "C:\\Users\\dmart\\OneDrive\\Documentos\\PROYECTOS_DANIELA\\HSM2\\HSM2\\HSM2.csproj",
         "packagesPath": "C:\\Users\\dmart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dmart\\OneDrive\\Documentos\\PROYECTOS\\HSM2\\HSM2\\obj\\",
+        "outputPath": "C:\\Users\\dmart\\OneDrive\\Documentos\\PROYECTOS_DANIELA\\HSM2\\HSM2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

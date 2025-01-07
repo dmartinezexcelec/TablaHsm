@@ -14,13 +14,13 @@
         <div class="row g-3">
             <!-- Filtro por texto (excluyendo fecha) -->
             <div class="col-md-6">
-                <label for="searchInput" class="form-label">Buscar por cualquier campo (excepto fecha)</label>
+                <label for="searchInput" class="form-label">Buscar por cualquier campo</label>
                 <input type="text" id="searchInput" class="form-control border-primary" placeholder="Ingresa texto para buscar">
             </div>
 
             <!-- Filtro de fecha -->
             <div class="col-md-6">
-                <label for="dateInput" class="form-label">Buscar por fecha (AAAA-MM-DD)</label>
+                <label for="dateInput" class="form-label">Buscar por fecha</label>
                 <input type="date" id="dateInput" class="form-control border-primary">
             </div>
         </div>
@@ -67,7 +67,7 @@
                             <td>@item.Sgn</td>
                             <td>@item.Bdt</td>
                             <td>@item.Krn</td>
-                            <td>@item.Act.ToString("yyyy-MM-dd")</td>
+                            <td>@item.Act?.ToString("yyyy-MM-dd")</td>
                             <td>@item.Clm</td>
                             <td>@item.Clu</td>
                             <td>@item.Dkg</td>
