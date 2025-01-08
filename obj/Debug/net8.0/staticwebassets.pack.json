@@ -181,6 +181,10 @@
       "PackagePath": "staticwebassets\\HSM2.9sngup24mg.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\dmart\\OneDrive\\Documentos\\PROYECTOS_DANIELA\\HSM2\\HSM2\\wwwroot\\css\\excelec_logo.png",
+      "PackagePath": "staticwebassets\\css\\excelec_logo.png"
+    },
+    {
       "Id": "C:\\Users\\dmart\\OneDrive\\Documentos\\PROYECTOS_DANIELA\\HSM2\\HSM2\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

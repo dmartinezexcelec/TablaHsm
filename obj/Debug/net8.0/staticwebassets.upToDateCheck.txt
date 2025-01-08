@@ -42,6 +42,7 @@ C:\Users\dmart\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\js\b
 C:\Users\dmart\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\js\bootstrap.js.map
 C:\Users\dmart\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\js\bootstrap.min.js
 C:\Users\dmart\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\js\bootstrap.min.js.map
+wwwroot\css\excelec_logo.png
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js

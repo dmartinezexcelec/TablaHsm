@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MrK79/wcYXncKBm5N10VcvSoRqw28mzXmqMlXe1I7Xs=",
+  "Hash": "RBmcY4TezN2LK13roYXS1MSkZ/1g7X4TNbp3PgGwNkE=",
   "Source": "HSM2",
   "BasePath": "_content/HSM2",
   "Mode": "Default",
@@ -983,6 +983,27 @@
       "OriginalItemSpec": "C:\\Users\\dmart\\OneDrive\\Documentos\\PROYECTOS_DANIELA\\HSM2\\HSM2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HSM2.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\dmart\\OneDrive\\Documentos\\PROYECTOS_DANIELA\\HSM2\\HSM2\\wwwroot\\css\\excelec_logo.png",
+      "SourceId": "HSM2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dmart\\OneDrive\\Documentos\\PROYECTOS_DANIELA\\HSM2\\HSM2\\wwwroot\\",
+      "BasePath": "_content/HSM2",
+      "RelativePath": "css/excelec_logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f901pmk5lq",
+      "Integrity": "bfeyXc4NYDayDo2uBWrxA/fiGBzqS6L7r/jjjc/6oZ8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\excelec_logo.png"
+    },
+    {
       "Identity": "C:\\Users\\dmart\\OneDrive\\Documentos\\PROYECTOS_DANIELA\\HSM2\\HSM2\\wwwroot\\css\\site.css",
       "SourceId": "HSM2",
       "SourceType": "Discovered",
@@ -997,8 +1018,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "54yzl5l6fr",
+      "Integrity": "ddCVreY4jrVRb/G9aWwD9++gyq7auEjRhIS48JwZG6I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -4869,8 +4890,8 @@
       ]
     },
     {
-      "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "C:\\Users\\dmart\\OneDrive\\Documentos\\PROYECTOS_DANIELA\\HSM2\\HSM2\\wwwroot\\css\\site.css",
+      "Route": "css/excelec_logo.f901pmk5lq.png",
+      "AssetFile": "C:\\Users\\dmart\\OneDrive\\Documentos\\PROYECTOS_DANIELA\\HSM2\\HSM2\\wwwroot\\css\\excelec_logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4879,19 +4900,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "2464"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"bfeyXc4NYDayDo2uBWrxA/fiGBzqS6L7r/jjjc/6oZ8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 21:52:08 GMT"
+          "Value": "Wed, 08 Jan 2025 16:10:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4901,7 +4922,89 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "f901pmk5lq"
+        },
+        {
+          "Name": "label",
+          "Value": "css/excelec_logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bfeyXc4NYDayDo2uBWrxA/fiGBzqS6L7r/jjjc/6oZ8="
+        }
+      ]
+    },
+    {
+      "Route": "css/excelec_logo.png",
+      "AssetFile": "C:\\Users\\dmart\\OneDrive\\Documentos\\PROYECTOS_DANIELA\\HSM2\\HSM2\\wwwroot\\css\\excelec_logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bfeyXc4NYDayDo2uBWrxA/fiGBzqS6L7r/jjjc/6oZ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 16:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bfeyXc4NYDayDo2uBWrxA/fiGBzqS6L7r/jjjc/6oZ8="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.54yzl5l6fr.css",
+      "AssetFile": "C:\\Users\\dmart\\OneDrive\\Documentos\\PROYECTOS_DANIELA\\HSM2\\HSM2\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ddCVreY4jrVRb/G9aWwD9++gyq7auEjRhIS48JwZG6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 17:00:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "54yzl5l6fr"
         },
         {
           "Name": "label",
@@ -4909,7 +5012,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-ddCVreY4jrVRb/G9aWwD9++gyq7auEjRhIS48JwZG6I="
         }
       ]
     },
@@ -4924,7 +5027,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "418"
         },
         {
           "Name": "Content-Type",
@@ -4932,11 +5035,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"ddCVreY4jrVRb/G9aWwD9++gyq7auEjRhIS48JwZG6I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 21:52:08 GMT"
+          "Value": "Wed, 08 Jan 2025 17:00:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4946,7 +5049,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-ddCVreY4jrVRb/G9aWwD9++gyq7auEjRhIS48JwZG6I="
         }
       ]
     },
